@@ -1,0 +1,164 @@
+[17:31:09] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[17:31:09] [ForkJoinPool-1-worker-2/WARN] (FabricLoader/Metadata) Mod ultimateclaim uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:31:09] [main/INFO] (FabricLoader) Loading 48 mods:
+	- fabric-api 0.92.1+1.20.1
+	- fabric-api-base 0.4.31+1802ada577
+	- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	- fabric-biome-api-v1 13.0.13+1802ada577
+	- fabric-block-api-v1 1.0.11+1802ada577
+	- fabric-block-view-api-v2 1.0.1+1802ada577
+	- fabric-command-api-v1 1.2.34+f71b366f77
+	- fabric-command-api-v2 2.2.13+1802ada577
+	- fabric-commands-v0 0.2.51+df3654b377
+	- fabric-containers-v0 0.1.64+df3654b377
+	- fabric-content-registries-v0 4.0.11+1802ada577
+	- fabric-convention-tags-v1 1.5.5+1802ada577
+	- fabric-crash-report-info-v1 0.2.19+1802ada577
+	- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	- fabric-data-generation-api-v1 12.3.4+1802ada577
+	- fabric-dimensions-v1 2.1.54+1802ada577
+	- fabric-entity-events-v1 1.6.0+1c78457f77
+	- fabric-events-interaction-v0 0.6.2+1802ada577
+	- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	- fabric-game-rule-api-v1 1.0.40+1802ada577
+	- fabric-gametest-api-v1 1.2.13+1802ada577
+	- fabric-item-api-v1 2.1.28+1802ada577
+	- fabric-item-group-api-v1 4.0.12+1802ada577
+	- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	- fabric-loot-api-v2 1.2.1+1802ada577
+	- fabric-loot-tables-v1 1.1.45+9e7660c677
+	- fabric-message-api-v1 5.1.9+1802ada577
+	- fabric-mining-level-api-v1 2.1.50+1802ada577
+	- fabric-networking-api-v1 1.3.11+1802ada577
+	- fabric-networking-v0 0.3.51+df3654b377
+	- fabric-object-builder-api-v1 11.1.3+1802ada577
+	- fabric-particles-v1 1.1.2+1802ada577
+	- fabric-recipe-api-v1 1.0.21+1802ada577
+	- fabric-registry-sync-v0 2.3.3+1802ada577
+	- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	- fabric-resource-loader-v0 0.11.10+1802ada577
+	- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.15.11
+	- java 17
+	- luckperms 5.4.102
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	- minecraft 1.20.1
+	- mixinextras 0.3.5
+	- ultimateclaim ${version}
+[17:31:13] [main/WARN] (FabricLoader/ModRemap) Error deleting temporary input jar true
+java.nio.file.FileSystemException: .\.fabric\tmp\fabric-permissions-api-v06927511469775276640.jar: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at net.fabricmc.loader.impl.discovery.RuntimeModRemapper.remap(RuntimeModRemapper.java:194) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.setup(FabricLoaderImpl.java:242) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:192) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]
+[17:31:14] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/christophe/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:31:14] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[17:31:14] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[17:31:14] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[17:31:15] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[17:31:31] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:31:33] [main/INFO] (Minecraft) Loaded 7 recipes
+[17:31:34] [main/INFO] (Minecraft) Loaded 1271 advancements
+[17:31:34] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 2.753 ms
+[17:31:34] [Server thread/INFO] (Minecraft)         __    
+[17:31:34] [Server thread/INFO] (Minecraft)   |    |__)   LuckPerms v5.4.102
+[17:31:34] [Server thread/INFO] (Minecraft)   |___ |      Running on Fabric - fabric@0.92.1+1.20.1
+[17:31:34] [Server thread/INFO] (Minecraft) 
+[17:31:34] [Server thread/INFO] (luckperms) Loading configuration...
+[17:31:35] [Server thread/INFO] (luckperms) Loading storage provider... [H2]
+[17:31:35] [Server thread/INFO] (luckperms) Loading internal permission managers...
+[17:31:35] [Server thread/INFO] (luckperms) Performing initial data load...
+[17:31:36] [Server thread/INFO] (luckperms) Successfully enabled. (took 1445ms)
+[17:31:36] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.20.1
+[17:31:36] [Server thread/INFO] (Minecraft) Loading properties
+[17:31:36] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[17:31:36] [Server thread/INFO] (Minecraft) Generating keypair
+[17:31:36] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[17:31:36] [Server thread/INFO] (Minecraft) Using default channel type
+[17:31:36] [Server thread/WARN] (Minecraft) **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:31:36] [Server thread/WARN] (Minecraft) The server will make no attempt to authenticate usernames. Beware.
+[17:31:36] [Server thread/WARN] (Minecraft) While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:31:36] [Server thread/WARN] (Minecraft) To change this, set "online-mode" to "true" in the server.properties file.
+[17:31:36] [Server thread/INFO] (Minecraft) Preparing level "world"
+[17:31:38] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[17:31:41] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 0%
+[17:31:41] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 0%
+[17:31:41] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 0%
+[17:31:41] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[17:31:41] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[17:31:41] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[17:31:41] [Worker-Main-14/INFO] (Minecraft) Preparing spawn area: 0%
+[17:31:41] [Worker-Main-14/INFO] (Minecraft) Preparing spawn area: 32%
+[17:31:42] [Server thread/INFO] (Minecraft) Time elapsed: 3866 ms
+[17:31:42] [Server thread/INFO] (Minecraft) Done (5.383s)! For help, type "help"
+[17:31:51] [Server thread/INFO] (Minecraft) ch32_[/127.0.0.1:53032] logged in with entity id 193 at (-1208.2511255833244, 88.0, -406.7221321040402)
+[17:31:51] [Server thread/INFO] (Minecraft) ch32_ joined the game
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) [LP] User Sous-commandes: (/lp user <user> ...)
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > info
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > permission
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > parent
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > meta
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > editor
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > promote - [track] [context...] [--dont-add-to-first]
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > demote - [track] [context...] [--dont-remove-from-first]
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > showtracks
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > clear - [context...]
+[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > clone - <user>
+[17:32:17] [Server thread/INFO] (Minecraft) Incorrect argument for command
+[17:32:17] [Server thread/INFO] (Minecraft) lp <--[HERE]
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) [LP] User Sous-commandes: (/lp user <user> ...)
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > info
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > permission
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > parent
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > meta
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > editor
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > promote - [track] [context...] [--dont-add-to-first]
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > demote - [track] [context...] [--dont-remove-from-first]
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > showtracks
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > clear - [context...]
+[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > clone - <user>
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) [LP] User Sous-commandes: (/lp user <user> ...)
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > info
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > permission
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > parent
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > meta
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > editor
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > promote - [track] [context...] [--dont-add-to-first]
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > demote - [track] [context...] [--dont-remove-from-first]
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > showtracks
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > clear - [context...]
+[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > clone - <user>
+[17:33:09] [Server thread/INFO] (Minecraft) Unknown or incomplete command, see below for error
+[17:33:09] [Server thread/INFO] (Minecraft) [mlp user @a permission set luckperms<--[HERE]
+[17:33:19] [Server thread/INFO] (Minecraft) Unknown or incomplete command, see below for error
+[17:33:19] [Server thread/INFO] (Minecraft) [m[mlp user @a permission<--[HERE]
+[17:33:44] [luckperms-command-executor/INFO] (Minecraft) [LP] luckperms à été défini sur true pour ch32_ dans le contexte global.
+[17:34:07] [luckperms-command-executor/INFO] (Minecraft) [LP] JOURNAL > (ch32_) [U] (ch32_)
+[17:34:07] [luckperms-command-executor/INFO] (Minecraft) [LP] JOURNAL > permission set ultimateclaime.command.claim true
+[17:34:20] [Server thread/INFO] (Minecraft) [ch32_: Stopping the server]
+[17:34:20] [Server thread/INFO] (luckperms) Starting shutdown process...
+[17:34:20] [Server thread/INFO] (luckperms) Closing storage...
+[17:34:20] [Server thread/INFO] (luckperms) Goodbye!
+[17:34:20] [Server thread/INFO] (Minecraft) Stopping server
+[17:34:20] [Server thread/INFO] (Minecraft) Saving players
+[17:34:20] [Server thread/INFO] (Minecraft) Saving worlds
+[17:34:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:34:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:34:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:34:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:34:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:34:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:34:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
