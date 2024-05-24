@@ -3,7 +3,7 @@
 	"package": "ultimateclaim.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"WorldMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

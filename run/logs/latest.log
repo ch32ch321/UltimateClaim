@@ -1,6 +1,6 @@
-[17:31:09] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
-[17:31:09] [ForkJoinPool-1-worker-2/WARN] (FabricLoader/Metadata) Mod ultimateclaim uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[17:31:09] [main/INFO] (FabricLoader) Loading 48 mods:
+[01:09:49] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[01:09:49] [ForkJoinPool-1-worker-1/WARN] (FabricLoader/Metadata) Mod ultimateclaim uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:09:49] [main/INFO] (FabricLoader) Loading 48 mods:
 	- fabric-api 0.92.1+1.20.1
 	- fabric-api-base 0.4.31+1802ada577
 	- fabric-api-lookup-api-v1 1.6.36+1802ada577
@@ -49,8 +49,8 @@
 	- minecraft 1.20.1
 	- mixinextras 0.3.5
 	- ultimateclaim ${version}
-[17:31:13] [main/WARN] (FabricLoader/ModRemap) Error deleting temporary input jar true
-java.nio.file.FileSystemException: .\.fabric\tmp\fabric-permissions-api-v06927511469775276640.jar: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus
+[01:09:57] [main/WARN] (FabricLoader/ModRemap) Error deleting temporary input jar true
+java.nio.file.FileSystemException: .\.fabric\tmp\fabric-permissions-api-v09114673188380722575.jar: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
@@ -64,101 +64,58 @@ java.nio.file.FileSystemException: .\.fabric\tmp\fabric-permissions-api-v0692751
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]
-[17:31:14] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/christophe/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[17:31:14] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[17:31:14] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[17:31:14] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[17:31:15] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[17:31:31] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:31:33] [main/INFO] (Minecraft) Loaded 7 recipes
-[17:31:34] [main/INFO] (Minecraft) Loaded 1271 advancements
-[17:31:34] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 2.753 ms
-[17:31:34] [Server thread/INFO] (Minecraft)         __    
-[17:31:34] [Server thread/INFO] (Minecraft)   |    |__)   LuckPerms v5.4.102
-[17:31:34] [Server thread/INFO] (Minecraft)   |___ |      Running on Fabric - fabric@0.92.1+1.20.1
-[17:31:34] [Server thread/INFO] (Minecraft) 
-[17:31:34] [Server thread/INFO] (luckperms) Loading configuration...
-[17:31:35] [Server thread/INFO] (luckperms) Loading storage provider... [H2]
-[17:31:35] [Server thread/INFO] (luckperms) Loading internal permission managers...
-[17:31:35] [Server thread/INFO] (luckperms) Performing initial data load...
-[17:31:36] [Server thread/INFO] (luckperms) Successfully enabled. (took 1445ms)
-[17:31:36] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.20.1
-[17:31:36] [Server thread/INFO] (Minecraft) Loading properties
-[17:31:36] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
-[17:31:36] [Server thread/INFO] (Minecraft) Generating keypair
-[17:31:36] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
-[17:31:36] [Server thread/INFO] (Minecraft) Using default channel type
-[17:31:36] [Server thread/WARN] (Minecraft) **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:31:36] [Server thread/WARN] (Minecraft) The server will make no attempt to authenticate usernames. Beware.
-[17:31:36] [Server thread/WARN] (Minecraft) While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:31:36] [Server thread/WARN] (Minecraft) To change this, set "online-mode" to "true" in the server.properties file.
-[17:31:36] [Server thread/INFO] (Minecraft) Preparing level "world"
-[17:31:38] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[17:31:41] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 0%
-[17:31:41] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 0%
-[17:31:41] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 0%
-[17:31:41] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
-[17:31:41] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
-[17:31:41] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
-[17:31:41] [Worker-Main-14/INFO] (Minecraft) Preparing spawn area: 0%
-[17:31:41] [Worker-Main-14/INFO] (Minecraft) Preparing spawn area: 32%
-[17:31:42] [Server thread/INFO] (Minecraft) Time elapsed: 3866 ms
-[17:31:42] [Server thread/INFO] (Minecraft) Done (5.383s)! For help, type "help"
-[17:31:51] [Server thread/INFO] (Minecraft) ch32_[/127.0.0.1:53032] logged in with entity id 193 at (-1208.2511255833244, 88.0, -406.7221321040402)
-[17:31:51] [Server thread/INFO] (Minecraft) ch32_ joined the game
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) [LP] User Sous-commandes: (/lp user <user> ...)
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > info
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > permission
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > parent
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > meta
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > editor
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > promote - [track] [context...] [--dont-add-to-first]
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > demote - [track] [context...] [--dont-remove-from-first]
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > showtracks
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > clear - [context...]
-[17:32:07] [luckperms-command-executor/INFO] (Minecraft) > clone - <user>
-[17:32:17] [Server thread/INFO] (Minecraft) Incorrect argument for command
-[17:32:17] [Server thread/INFO] (Minecraft) lp <--[HERE]
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) [LP] User Sous-commandes: (/lp user <user> ...)
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > info
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > permission
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > parent
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > meta
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > editor
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > promote - [track] [context...] [--dont-add-to-first]
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > demote - [track] [context...] [--dont-remove-from-first]
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > showtracks
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > clear - [context...]
-[17:32:23] [luckperms-command-executor/INFO] (Minecraft) > clone - <user>
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) [LP] User Sous-commandes: (/lp user <user> ...)
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > info
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > permission
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > parent
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > meta
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > editor
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > promote - [track] [context...] [--dont-add-to-first]
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > demote - [track] [context...] [--dont-remove-from-first]
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > showtracks
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > clear - [context...]
-[17:32:47] [luckperms-command-executor/INFO] (Minecraft) > clone - <user>
-[17:33:09] [Server thread/INFO] (Minecraft) Unknown or incomplete command, see below for error
-[17:33:09] [Server thread/INFO] (Minecraft) [mlp user @a permission set luckperms<--[HERE]
-[17:33:19] [Server thread/INFO] (Minecraft) Unknown or incomplete command, see below for error
-[17:33:19] [Server thread/INFO] (Minecraft) [m[mlp user @a permission<--[HERE]
-[17:33:44] [luckperms-command-executor/INFO] (Minecraft) [LP] luckperms à été défini sur true pour ch32_ dans le contexte global.
-[17:34:07] [luckperms-command-executor/INFO] (Minecraft) [LP] JOURNAL > (ch32_) [U] (ch32_)
-[17:34:07] [luckperms-command-executor/INFO] (Minecraft) [LP] JOURNAL > permission set ultimateclaime.command.claim true
-[17:34:20] [Server thread/INFO] (Minecraft) [ch32_: Stopping the server]
-[17:34:20] [Server thread/INFO] (luckperms) Starting shutdown process...
-[17:34:20] [Server thread/INFO] (luckperms) Closing storage...
-[17:34:20] [Server thread/INFO] (luckperms) Goodbye!
-[17:34:20] [Server thread/INFO] (Minecraft) Stopping server
-[17:34:20] [Server thread/INFO] (Minecraft) Saving players
-[17:34:20] [Server thread/INFO] (Minecraft) Saving worlds
-[17:34:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:34:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:34:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:34:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:34:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:34:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:34:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[01:09:58] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/christophe/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[01:09:58] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[01:09:58] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[01:09:58] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[01:10:00] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[01:10:20] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:10:24] [main/INFO] (Minecraft) Loaded 7 recipes
+[01:10:24] [main/INFO] (Minecraft) Loaded 1271 advancements
+[01:10:25] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 4.247 ms
+[01:10:25] [Server thread/INFO] (Minecraft)         __    
+[01:10:25] [Server thread/INFO] (Minecraft)   |    |__)   LuckPerms v5.4.102
+[01:10:25] [Server thread/INFO] (Minecraft)   |___ |      Running on Fabric - fabric@0.92.1+1.20.1
+[01:10:25] [Server thread/INFO] (Minecraft) 
+[01:10:25] [Server thread/INFO] (luckperms) Loading configuration...
+[01:10:26] [Server thread/INFO] (luckperms) Loading storage provider... [H2]
+[01:10:26] [Server thread/INFO] (luckperms) Loading internal permission managers...
+[01:10:26] [Server thread/INFO] (luckperms) Performing initial data load...
+[01:10:27] [Server thread/INFO] (luckperms) Successfully enabled. (took 1428ms)
+[01:10:27] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.20.1
+[01:10:27] [Server thread/INFO] (Minecraft) Loading properties
+[01:10:27] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[01:10:27] [Server thread/INFO] (Minecraft) Generating keypair
+[01:10:27] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[01:10:27] [Server thread/INFO] (Minecraft) Using default channel type
+[01:10:28] [Server thread/WARN] (Minecraft) **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:10:28] [Server thread/WARN] (Minecraft) The server will make no attempt to authenticate usernames. Beware.
+[01:10:28] [Server thread/WARN] (Minecraft) While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:10:28] [Server thread/WARN] (Minecraft) To change this, set "online-mode" to "true" in the server.properties file.
+[01:10:28] [Server thread/INFO] (Minecraft) Preparing level "world"
+[01:10:31] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[01:10:36] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-14/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-14/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:36] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[01:10:37] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 4%
+[01:10:37] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 30%
+[01:10:38] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 82%
+[01:10:38] [Server thread/INFO] (Minecraft) Time elapsed: 7248 ms
+[01:10:38] [Server thread/INFO] (Minecraft) Done (10.282s)! For help, type "help"
+[01:10:53] [Server thread/INFO] (Minecraft) ch32_[/127.0.0.1:53460] logged in with entity id 165 at (-1244.5703808628568, 117.87144321598137, -522.3000000119209)
+[01:10:53] [Server thread/INFO] (Minecraft) ch32_ joined the game
+[01:16:53] [Server thread/INFO] (Minecraft) [ch32_: Set own game mode to Survival Mode]
+[01:16:54] [Server thread/INFO] (Minecraft) [ch32_: Set own game mode to Creative Mode]
+[01:17:54] [Server thread/INFO] (Minecraft) [ch32_: Gamerule doFireTick is now set to: false]
+[01:18:28] [Server thread/INFO] (Minecraft) [ch32_: Gamerule doFireTick is now set to: true]
+[01:18:44] [Server thread/INFO] (Minecraft) ch32_ lost connection: Disconnected
+[01:18:44] [Server thread/INFO] (Minecraft) ch32_ left the game
