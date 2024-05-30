@@ -34,9 +34,7 @@ public class UltimateClaim implements ModInitializer {
 				);
 		CommandRegistrationCallback.EVENT.register(new ClaimCommand());
 		
-		FireSpreadCallBack.Event.register((world, pos) -> {
-		return ActionResult.PASS;
-		});
+		
 		
 	}
 	
