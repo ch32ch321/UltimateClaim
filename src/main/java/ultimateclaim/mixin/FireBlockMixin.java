@@ -31,7 +31,7 @@ import net.minecraft.world.WorldView;
 import ultimateclaim.events.FireSpreadCallBack;
 
 @Mixin(FireBlock.class)
-public class WorldMixin {
+public class FireBlockMixin {
 	@Shadow
 	private final Object2IntMap<Block> burnChances = (Object2IntMap<Block>)new Object2IntOpenHashMap();
 	@Shadow
