@@ -3,7 +3,13 @@
 	"package": "ultimateclaim.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"FireBlockMixin"
+		"FireBlockMixin",
+		"leaveBlockMixin",
+		"HopperBlockEntityMixin",
+		"FlowableFluidMixin",
+		"DragonEggBlockMixin",
+		"PistonBlockMixin",
+		"EntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -11,9 +11,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.luckperms.api.LuckPerms;
 import net.luckperms.api.LuckPermsProvider;
 import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.util.ActionResult;
 import ultimateclaim.commands.ClaimCommand;
-import ultimateclaim.events.FireSpreadCallBack;
 
 public class UltimateClaim implements ModInitializer {
 	
@@ -33,9 +31,6 @@ public class UltimateClaim implements ModInitializer {
 				luckPerms = null
 				);
 		CommandRegistrationCallback.EVENT.register(new ClaimCommand());
-		
-		
-		
 	}
 	
 	public static boolean hasPermission(ServerPlayerEntity player, String permission) {
