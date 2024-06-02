@@ -9,7 +9,8 @@
 		"FlowableFluidMixin",
 		"DragonEggBlockMixin",
 		"PistonBlockMixin",
-		"EntityMixin"
+		"EntityMixin",
+		"BlockItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
