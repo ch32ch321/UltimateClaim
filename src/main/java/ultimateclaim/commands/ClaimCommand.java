@@ -106,6 +106,21 @@ public class ClaimCommand implements CommandRegistrationCallback {
 			return 0;
 		}
 		Claim claim = manager.getClaim(player.getUuid());
+		
+		 player.getServer().getPlayerManager().getPlayerList().stream()
+		 	.forEach(p -> {
+		 		ClaimMember member = claim.getOwnerAndMembers().stream().filter(m -> m.getUniqueId() == p.getUuid()).findFirst().orElse(null);
+		 		System.out.println(member.getRole().getLocalePath());
+			 	if (member.getRole() == ClaimRole.VISITOR) {
+	              claim.removeMember(member);
+	              p.networkHandler.sendPacket(BossBarS2CPacket.remove(claim.getVisitorBossBar().getUuid()));
+			 	} else{
+			 		System.out.println("test");
+	              member.setPresent(false);
+	              p.networkHandler.sendPacket(BossBarS2CPacket.remove(claim.getMemberBossBar().getUuid()));
+			 	}	 
+			 });
+		
 		claim.destroy(ClaimDeleteReason.PLAYER);
 		player.sendMessage(Text.literal("Votre claim a été détruit.").formatted(Formatting.GREEN));
 		return Command.SINGLE_SUCCESS;
@@ -314,13 +329,14 @@ public class ClaimCommand implements CommandRegistrationCallback {
 		 	.filter(p -> p.getChunkPos().equals(pos))
 		 	.forEach(p -> {
 		 		ClaimMember member = claim.getOwnerAndMembers().stream().filter(m -> m.getUniqueId() == p.getUuid()).findFirst().orElse(null);
-
+		 		System.out.println(member.getRole().getLocalePath());
 			 	if (member.getRole() == ClaimRole.VISITOR) {
 	              claim.removeMember(member);
 	              p.networkHandler.sendPacket(BossBarS2CPacket.remove(claim.getVisitorBossBar().getUuid()));
 			 	} else{
+			 		System.out.println("test");
 	              member.setPresent(false);
-	              p.networkHandler.sendPacket(BossBarS2CPacket.remove(claim.getVisitorBossBar().getUuid()));
+	              p.networkHandler.sendPacket(BossBarS2CPacket.remove(claim.getMemberBossBar().getUuid()));
 			 	}	 
 			 });
 		
